@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Helados y Más</title>
+    <script>
+      // GitHub Pages sirve este archivo cuando la ruta no existe como archivo.
+      // La app usa HashRouter (control-a11y.github.io/helados-erp/#/ruta), así que
+      // un enlace escrito "a la antigua" (…/helados-erp/efectivo/documentos)
+      // caería aquí y quedaría en blanco. Se traduce a su forma con # y se entra.
+      (function () {
+        var base = '/helados-erp/';
+        var p = location.pathname;
+        var resto = p.indexOf(base) === 0 ? p.slice(base.length) : '';
+        location.replace(base + '#/' + resto.replace(/^\/+/, '') + location.search);
+      })();
+    </script>
+  </head>
+  <body>
+    <p style="font-family: system-ui, sans-serif; padding: 24px">
+      Redirigiendo…
+      <a href="/helados-erp/">Ir al inicio</a>
+    </p>
+  </body>
+</html>
