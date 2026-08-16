@@ -1,1 +1,0 @@
-import{h as s}from"./index-Cqgb1HMW.js";const I="https://bzdcaxtmhrwqjluuzqrw.supabase.co",c="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ6ZGNheHRtaHJ3cWpsdXV6cXJ3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODMwOTc1NDYsImV4cCI6MjA5ODY3MzU0Nn0.Wg0LslppdEC-Gr3aE1jxX5CR0XOhoEvDDEmyJHjyJnM",O=s(I,c);export{O as y};
