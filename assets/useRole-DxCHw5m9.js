@@ -1,0 +1,1 @@
+import{c as n}from"./index-Yb1WjGiG.js";function c(){const{rol:r,cargando:o,errorCarga:a}=n(),e=r==="admin";return{role:r,loading:o,error:a?"No se pudo cargar el rol":null,isAdmin:e,canApprove:e||r==="gerente",canOperate:e||r==="almacen"}}export{c as u};

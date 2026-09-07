@@ -1,0 +1,1 @@
+const a={"002-006":"Caja tienda","002-011":"Autoservicio"},e="MANUAL";function i(r){const n=(r??"").trim();if(!n)return"—";if(n===e)return"Manual";const t=a[n];return t?`${t} (${n})`:`Caja ${n}`}function o(r){const n=(r??"").trim();return n?n===e?"Manual":a[n]??n:"—"}export{i as e,o as n};
